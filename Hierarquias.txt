@@ -1,0 +1,16 @@
+Seguindo da menor para a maior:
+Farm - Template de site: As farms são os pontos de inicio, é onde alocamos os servidores, e dentro de uma farm podemos ter varios Web Applications. Um exemplo sobre farms são os templates de site que pode ser feito deploys para serem pontos de partida para desenvolvimentos já prontos.
+
+WebApplication - Timer Jobs : Uma web application pode ter varios site collections, timer jobs são rotinas já pré agendadas para serem executadas em determinados horarios(exemplo de rotina são cargas de dados e etc) os deploys feitos nesses fins são a nivel de web application
+
+Site (site Collection) - webParts : Dentro das collection podemos criar varias páginas web. As web parts são partes especifícas desenvolvidas para o site ou para projetos futuros, uma sessão customizada, ou um sistema.
+
+Web (Web sites) - Lists : Listas são os principais objetos para armazenar dados no sharepoint. Os deploys são a nivel web
+
+                          (SPFarm)
+                           ↑    ↑
+           (SpWebApplication)--(SpWebApplication)
+                ↑          ↑           ↑
+            (SPSite)----(SPSite)----(SPSite)
+                ↑         ↑   ↑          ↑
+            (SPWeb)--(SPWeb)-(SPWeb)--(SPWeb)

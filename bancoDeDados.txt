@@ -1,0 +1,7 @@
+■ CONFIGURAÇÃO
+    - São armazenados dados sobre Aplicativos Web, modelos de sites e outros.
+    - Exemplos de bancos de configuração seria o SharePoint_Config e SharePoint_AdminContent_<GUID>
+
+■ CONTEÚDO
+    - Os bancos de dados de conteúdo armazenam todo o conteúdo para um conjunto de sites. Isso abrange documentos ou arquivos de sites em bibliotecas de documentos, dados de lista, propriedades de Web Part, logs de auditoria e soluções em área restrita, além de nomes de usuário e direitos.
+
